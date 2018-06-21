@@ -19,8 +19,6 @@ function store (state, emitter) {
       to(write, end),
       function (err) {
         if (err) console.error(err)
-        state.date = err
-        emitter.emit(state.events.RENDER)
       }
     )
 

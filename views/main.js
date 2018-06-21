@@ -13,7 +13,7 @@ function view (state, emit) {
         <section class="fl mw6 w-50-m w-third-l pa3">
           <h1>When will ETH reach $1000 again?</h1>
           <p>
-            By parsing this <a href=${'https://www.reddit.com/r/ethtrader/comments/8sn7ir/predict_the_exact_day_eth_will_reach_1000_again.json'}>Reddit thread</a> for dates in the future, we can utilize the "wisdom of crowds" to guess when eth will be $1000 again.
+            By parsing this <a href=${'https://www.reddit.com/r/ethtrader/comments/8sn7ir/predict_the_exact_day_eth_will_reach_1000_again'}>Reddit thread</a> for dates in the future, we can utilize the "wisdom of crowds" to guess when eth will be $1000 again.
           </p>
           <h2>
             <strong>
