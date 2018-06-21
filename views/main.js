@@ -8,8 +8,8 @@ function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
 
   return html`
-    <body class="code lh-copy">
-      <main class="pa3 cf center">
+    <main class="code lh-copy">
+      <div class="pa3 cf center">
         <section class="fl mw6 w-50-m w-third-l pa3">
           <h1>When will ETH reach $1000 again?</h1>
           <p>
@@ -20,8 +20,10 @@ function view (state, emit) {
             ${state.date || 'Fetching data and finding the average date...'}
             </strong>
           </h2>
+
+          <small><a href=${'https://github.com/jekrb/when1000.website'}>github</a></small>
         </section>
-      </main>
-    </body>
+      </div>
+    </main>
   `
 }

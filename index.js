@@ -12,4 +12,4 @@ app.use(require('./stores/dates'))
 
 app.route('/*', require('./views/main'))
 
-module.exports = app.mount('body')
+module.exports = app.mount('main')
