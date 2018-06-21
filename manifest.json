@@ -1,0 +1,14 @@
+{
+  "name": "when1000.website",
+  "short_name": "when1000.website",
+  "description": "uses crowdsourced data from a reddit thread to guess the next time eth will be $1000",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "icons": [{
+    "src": "/assets/icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
